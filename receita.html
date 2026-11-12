@@ -7,20 +7,28 @@
        <meta charset="UTF-8">
        <style>
               /* regras gerais */
-              * {
+              h1 {
                      box-sizing: border-box;
-                     font-family: 'segoe ui', Tahoma, Geneva, Verdana, sans-serif;
+                     font-family: 'Cake.otf';
               }
+              @font-face {
+                     font-family: 'Cake.otf';
+                     src: url('fonts/Cake.otf') 
+              }
+             
+
 
               header {
                      background: #482E21;
                      padding: 15px;
                      border-radius: 0px 0px 14px 14px;
+                     text-transform: uppercase;
               }
 
               h1 {
                      color: #613a34;
                      text-align: center;
+                     padding-top: 10px;
               }
 
               nav a {
@@ -31,8 +39,9 @@
               nav ul {
                      list-style: none;
                      display: flex;
-                     gap: 25px;
+                     gap: 85px;
                      padding: 0;
+                     font-size: 20px;
               }
 
               main {
@@ -50,7 +59,8 @@
                      margin-bottom: 20px;
               }
 
-              img,iframe {
+              img,
+              iframe {
                      width: 450px;
                      height: 320px;
                      border: 5px solid #613a34;
@@ -62,10 +72,10 @@
               }
 
               footer {
-                    background: #482E21;
-                    padding: 15px;
-                    text-align: center;
-                    color: #FFF;
+                     background: #482E21;
+                     padding: 15px;
+                     text-align: center;
+                     color: #FFF;
               }
 
               body {
@@ -74,7 +84,7 @@
               }
 
               h1 {
-                     color: #482E21;
+                     color: #482e21;
                      text-align: center;
                      text-transform: uppercase;
                      font-size: 50px;
